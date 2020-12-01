@@ -13,11 +13,10 @@ public:
 
 class OrderedStream {
 private:
-    vector<pair> vec;
+    int index;
+    vector<*pair> vec;
 public:
-    OrderedStream(int n) {
-        vec;
-
+    OrderedStream(int n):index(0)vec(n,NULL) {
     }
     
     vector<string> insert(int id, string value) {
