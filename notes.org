@@ -1,0 +1,14 @@
+* Algorithm
+** sliding window algorithm
+Related to *longest-substring-without-repeating-characters*
+
+For finding pattern in arrays or strings,the information of current sub-object should be used
+as possivle in each iteration.For example, if j-th element of string repeats in the inteval
+[i,j],then any substr in the inteval will be definitely shorted than (j-i) and thus there is no 
+need to iterate between this inteval. 
+
+* Snippets
+** to figure out if j-th element of string occurs before
+#+BEGIN_SRC c++
+  if(s.find(s[j],pos)==j)
+#+END_SRC
