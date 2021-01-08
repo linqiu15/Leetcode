@@ -14,4 +14,4 @@ need to iterate between this inteval.
 #+END_SRC
 * Math
 ** [[https://en.wikipedia.org/wiki/Digital_root][digits sum]]
-$dr_b(n)=\begin{cases}0&if\quad n=0\\1+((n-1)mod(b-1))\quad if\quad \neq 0\end{cases}$
+$dr_b(n)=\begin{cases}0&if\quad n=0\\1+((n-1)mod(b-1))&if\quad n\neq 0\end{cases}$
