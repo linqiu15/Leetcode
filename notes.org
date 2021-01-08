@@ -12,3 +12,6 @@ need to iterate between this inteval.
 #+BEGIN_SRC c++
   if(s.find(s[j],pos)==j)
 #+END_SRC
+* Math
+** [[https://en.wikipedia.org/wiki/Digital_root][digits sum]]
+$dr_b(n)=\begin{cases}0&if\quad n=0\\1+((n-1)mod(b-1))\quad if\quad \neq 0\end{cases}$
